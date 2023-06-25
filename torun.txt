@@ -1,0 +1,15 @@
+docker compose up
+
+yarn start:dev
+
+node version 16.14.0
+
+npx prisma studio
+
+prisma migrate deploy
+
+npx prisma migrate dev
+
+
+- To restart db and run migrations
+yarn db:dev:restart
